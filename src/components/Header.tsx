@@ -39,7 +39,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
         {/* Zone 1: Single element wordmark */}
         <a
           href="#"
-          className="font-serif text-xl sm:text-2xl tracking-tight text-[#18181B] hover:text-[#1E3A2F] transition-colors whitespace-nowrap font-normal truncate max-w-[190px] xs:max-w-none"
+          className="font-serif text-lg sm:text-2xl tracking-tight text-[#18181B] hover:text-[#1E3A2F] transition-colors whitespace-nowrap font-normal shrink-0"
         >
           {PRACTITIONER_NAME}
         </a>
